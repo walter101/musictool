@@ -1,0 +1,155 @@
+.CoverImageContainer{
+    /*width: 270px;*/
+    width: 30%;
+    float: left;
+    background-color: #444444;
+    border: 1px solid #303030;
+    overflow: hidden;
+}
+    .CoverImageContainer img{
+        width: 100%;
+        height: auto;
+    }
+
+.AlbumInfoContainer{
+    /*width: calc(60% - 270px);*/
+    width: 70%;
+    padding: 7px;
+    float: left;
+    background-color: #444444;
+    border-left: 1px solid #303030;
+    overflow: hidden;
+}
+    .AlbumInfoContainer.AlbumInfoArtistName{
+
+    }
+    .AlbumInfoContainer.AlbumInfoAlbumName{
+
+    }
+
+.AlbumActionsContainer{
+    background-color: #444444;
+    display: none;
+}
+
+
+
+
+
+/**
+    Table songs in album
+*/
+.AlbumTable{
+    width:100%;
+}
+.AlbumTable .SongListTracknumber{
+    background-color: #444444;
+    border-left: 0px solid #303030;
+    border-top: 1px solid #0f0f0f;
+    padding: 7px;
+    width: 30px;
+}
+    .AlbumTable .SongListTracknumber .SongListTrackNumberFont {
+        line-height: 30px;
+        color:#fff;
+    }
+
+.AlbumTable .SongListTrackInfo{
+    /*width: calc( 100% - 100px );*/
+    padding: 7px;
+    background-color: #444444;
+    border-left: 1px solid #303030;
+    border-top: 1px solid #0f0f0f;
+}
+
+    .AlbumTable .SongListTrackInfo .SongNameFont{
+        color: #fff;
+
+    }
+    .AlbumTable .SongListTrackInfo .ArtistNameFont{
+        color :#c3c3c3;
+    }
+.AlbumTable .SongListPlayicon{
+    width: 40px;
+    padding: 4px;
+    background-color: #444444;
+    border-top: 1px solid #0f0f0f;
+    background-image: url(/assets/images/play.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.AlbumTable .SongListMenu{
+    width: 20px;
+    padding: 4px;
+    background-color: #444444;
+    border-top: 1px solid #0f0f0f;
+    background-image: url(/assets/images/menu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Spacer5px{
+    width: 5px;
+    background-color: #444444;
+    border-top: 1px solid #0f0f0f;
+    font-size: 1px;
+}
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 767px) {
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+    .CoverImageContainer{
+        /*width: 270px;*/
+        width: 20%;
+        float: left;
+        overflow: hidden;
+    }
+    .CoverImageContainer img{
+        width: 100%;
+        height: auto;
+    }
+
+    .AlbumInfoContainer{
+        /*width: calc(60% - 270px);*/
+        width: 60%;
+        float: left;
+        overflow: hidden;
+    }
+    .AlbumInfoContainer.AlbumInfoArtistName{
+
+    }
+    .AlbumInfoContainer.AlbumInfoAlbumName{
+
+    }
+
+    .AlbumActionsContainer{
+        width: 20%;
+        float: left;
+        /*background-color: #444444;*/
+        display: block
+
+    }
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+}

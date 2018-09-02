@@ -1,0 +1,49 @@
+/*Main css is for phones width: 575px or less */
+
+.footer{
+    width: 100%;
+    border: 2px solid #ff0000;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    right:0;
+}
+.footer div.container{
+    border:2px solid #0062cc;
+    width: 100%;
+
+}
+.AlbumActionsContainer{
+    display: none;
+}
+
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 767px) {
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    /* Show 3th block in header*/
+    .AlbumActionsContainer{
+        display: block
+    }
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+}
+
